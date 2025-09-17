@@ -547,7 +547,7 @@ O painel foi pensado para aproximar os dados da prática pedagógica, fortalecen
             st.divider()
         
         # Exibir tabelas
-        self._exibir_tabelas_dados(df_geral, df_habilidades)
+        # self._exibir_tabelas_dados(df_geral, df_habilidades)
         
         # Exibir gráficos
         self._exibir_graficos(df_geral, df_habilidades)
@@ -575,7 +575,7 @@ O painel foi pensado para aproximar os dados da prática pedagógica, fortalecen
                 st.divider()
             
             # Exibir tabelas da escola
-            self._exibir_tabelas_dados(df_escola, df_habilidades_escola)
+            # self._exibir_tabelas_dados(df_escola, df_habilidades_escola)
             
             # Exibir gráficos da escola
             self._exibir_graficos(df_escola, df_habilidades_escola)
@@ -647,7 +647,7 @@ O painel foi pensado para aproximar os dados da prática pedagógica, fortalecen
                             st.divider()
                         
                         # Exibir tabelas da turma
-                        self._exibir_tabelas_dados(df_turma, df_habilidades_turma)
+                        # self._exibir_tabelas_dados(df_turma, df_habilidades_turma)
                         
                         # Exibir gráficos da turma
                         self._exibir_graficos(df_turma, df_habilidades_turma)
